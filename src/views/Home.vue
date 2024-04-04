@@ -35,7 +35,7 @@ export default {
   },
   methods: {
     async fetchBillboard() {
-      getTodayTip().then((value) => {
+      getBillboard().then((value) => {
         const { data } = value;
         this.billboard = data;
       }).catch(() => {

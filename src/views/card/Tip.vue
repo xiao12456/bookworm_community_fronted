@@ -8,7 +8,7 @@
         {{ tip.content }}
       </div>
       <div class="has-text-right mt-5 block">
-        --{{ tip.author }}
+        ————{{ tip.author }}
       </div>
     </div>
   </el-card>
